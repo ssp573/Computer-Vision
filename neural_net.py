@@ -1,3 +1,5 @@
+#basic neural network with one hidden layer for approximating the cosine function
+
 import torch
 import torch.nn as nn
 import math
