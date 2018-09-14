@@ -1,3 +1,6 @@
+#The data has been decorrelated by rotating it on to the Eigenvectors of the covariance matrix of the translated data. 
+#Each dimension is then normalized to have a variance of 1 by dividing the rotated data by the square root of eigenvalues.
+
 import torch
 import matplotlib.pyplot as plt
 import numpy as np
